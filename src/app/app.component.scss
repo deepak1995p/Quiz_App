@@ -1,0 +1,26 @@
+.quiz-wrapper {
+    .button-container {
+        display: flex;
+        justify-content: flex-end;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.btn-answer {
+    border: 1px solid #3628f336;
+    display: inline-block;
+    background: #f1f0ff;
+    color: rgba(0, 0, 0, 0.726);
+}
+
+.selected-answer {
+    background-color: rgb(163, 93, 228);
+    border-color: rgb(157, 82, 228);
+    outline: none;
+    color: rgb(252, 244, 244);
+}
+.next-button{
+    display: flex;
+    align-items: center;
+}
